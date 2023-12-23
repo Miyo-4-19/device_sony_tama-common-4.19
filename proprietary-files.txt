@@ -582,8 +582,6 @@ vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 
 # GNSS
-vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml
-vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml
 vendor/bin/hw/android.hardware.gnss@2.0-service-qti
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
@@ -592,6 +590,8 @@ vendor/bin/xtra-daemon
 vendor/bin/xtwifi-client
 vendor/bin/xtwifi-inet-agent
 vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc
+vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml
+vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml
 vendor/etc/cacert_location.pem
 vendor/etc/xtra_root_cert.pem
 vendor/lib/hw/android.hardware.gnss@2.0-impl-qti.so
@@ -986,12 +986,12 @@ vendor/etc/init/vendor.somc.hardware.miscta@1.0-service.rc
 vendor/lib64/vendor.somc.hardware.miscta@1.0.so
 
 # Modem switcher
+# Modem switcher (HIDL interface) - from SW_binaries_for_Xperia_Android_11_4.14_v9a_ganges
 system/bin/sony-modem-switcher:vendor/bin/sony-modem-switcher
 system/etc/init/init.sony-modem-switcher.rc:vendor/etc/init/init.sony-modem-switcher.rc
 system/lib64/libMiscTaWrapper.so:vendor/lib64/libMiscTaWrapper.so
 vendor/bin/hw/vendor.somc.hardware.modemswitcher@1.0-service
 vendor/etc/init/vendor.somc.hardware.modemswitcher@1.0-service.rc
-# Modem switcher (HIDL interface) - from SW_binaries_for_Xperia_Android_11_4.14_v9a_ganges
 vendor/lib64/vendor.somc.hardware.modemswitcher@1.0.so|981a107e38343e091b9ff5696b39bdb342ff48cb
 
 # Neural networks
@@ -1072,12 +1072,12 @@ vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so
 vendor/lib64/com.qualcomm.qti.ant@1.0.so
 
 # RIL
+# Taken from polaris - QKQ1.190828.002
 product/app/QtiTelephonyService/QtiTelephonyService.apk
 product/etc/permissions/qcrilhook.xml
 product/etc/permissions/telephonyservice.xml
 product/framework/QtiTelephonyServicelibrary.jar
 product/framework/qcrilhook.jar
-# Taken from polaris - QKQ1.190828.002
 product/framework/qti-telephony-common.jar|91fe0ce296fc29bece6df81070b9b3b4ee41a1b4
 product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/app/IWlanService/IWlanService.apk
