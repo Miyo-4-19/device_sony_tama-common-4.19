@@ -201,7 +201,12 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libqdMetaData.system \
     libtinyxml \
+    libsdmcore \
+    libsdmutils \
     memtrack.sdm845 \
+    libvulkan \
+    vendor.display.config@1.5 \
+    vendor.display.config@1.11.vendor \
     vendor.display.config@1.5 \
     vendor.display.config@1.0.vendor \
     vendor.display.config@2.0 \
@@ -438,8 +443,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
     hostapd \
-    libwifi-hal-qcom \
     libwpa_client \
+    libwifi-hal-ctrl \
+    libwifi-hal-qcom \
+    vendor.qti.hardware.wifi.hostapd@1.2.vendor \
+    vendor.qti.hardware.wifi.supplicant@2.2.vendor \
     WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
