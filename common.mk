@@ -499,8 +499,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
     hostapd \
-    libwifi-hal-qcom \
     libwpa_client \
+    libwifi-hal-ctrl \
+    libwifi-hal-qcom \
+    vendor.qti.hardware.wifi.hostapd@1.2.vendor \
+    vendor.qti.hardware.wifi.supplicant@2.2.vendor \
     WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
