@@ -181,8 +181,8 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so|f6e23f902b7e15232b20af55161a24da93ffe
 vendor/lib64/libbluetooth_audio_session_qti_2_1.so|f298669097abb8b47a24c46e4bf4eae872781299
 vendor/lib64/libsoc_helper.so|a7de8fae284f55adf21ca161155b41d6df9dae56
 
-# Camera firmware
-vendor/firmware/CAMERA_ICP.elf
+# Camera firmware - from SW_binaries_for_Xperia_Android_12_4.19_v3a_tama
+vendor/firmware/CAMERA_ICP.elf|5aed259c98208c04ea4b34c7672592fb38d2a239
 
 # CDSP
 vendor/bin/cdsprpcd
@@ -200,8 +200,8 @@ vendor/lib64/libmdsprpc.so
 vendor/lib64/libsdsprpc.so
 vendor/lib64/libsysmon_cdsp_skel.so
 
-# Charger
-vendor/bin/hvdcp_opti
+# Charger - from SW_binaries_for_Xperia_Android_12_4.19_v3a_tama
+vendor/bin/hvdcp_opti|11bfc23b8f402dc7bca4789d2313b45fe7ced815
 
 # CNE - from Sony/XQ-AS72
 -system_ext/framework/com.quicinc.cne.api-V1.1-java.jar|ed72cda387e7b589b5f18a74de1bc5ef422dcde4
@@ -573,13 +573,13 @@ vendor/lib64/libgsl.so|4fc49e2fb38b7f79e9026ad86db4a84bded2dec1
 vendor/lib64/libllvm-glnext.so|9a67215899a28ee769e68306d0443c43bbb227a7
 vendor/lib64/libllvm-qcom.so|e4ff6f0d3cd3823fa65768b935adfe878a4bda7a
 
-# Graphics (Adreno firmware)
-vendor/firmware/a630_gmu.bin
-vendor/firmware/a630_sqe.fw
-vendor/firmware/a630_zap.b00
-vendor/firmware/a630_zap.b01
-vendor/firmware/a630_zap.b02
-vendor/firmware/a630_zap.mdt
+# Graphics (Adreno firmware) - from SW_binaries_for_Xperia_Android_12_4.19_v3a_tama
+vendor/firmware/a630_gmu.bin|32bb4acc7767c47ddb487ed7cb998d465ee462f2
+vendor/firmware/a630_sqe.fw|e25094f97b44244775cc38a9d909fba6bd4cf76b
+vendor/firmware/a630_zap.b00|e936838535f2ab92351fe034e1c7b45e9be2917c
+vendor/firmware/a630_zap.b01|2c893196405e49dc979a3c58827d5954e2da5f0b
+vendor/firmware/a630_zap.b02|88021b575c43fc43309bcc20d03c4616a789612b
+vendor/firmware/a630_zap.mdt|3dfd91386fabc624b53110a5f8f2bf979d8b8aef
 
 # Graphics (Vulkan) - from Sony/XQ-AS72
 vendor/lib/hw/vulkan.adreno.so|ae95be239a5fc7ac66d2873a5bca1660667b1ece
@@ -679,11 +679,13 @@ vendor/lib64/vendor.qti.imsrtpservice@3.0.so|6d4b854e7ba91ef98398568c365a131cf4c
 vendor/bin/ipacm-diag
 vendor/etc/init/ipa_fws.rc
 vendor/firmware/ipa_fws.b00
-vendor/firmware/ipa_fws.b01
 vendor/firmware/ipa_fws.b02
 vendor/firmware/ipa_fws.b03
 vendor/firmware/ipa_fws.b04
-vendor/firmware/ipa_fws.mdt
+
+# IPA - from SW_binaries_for_Xperia_Android_12_4.19_v3a_tama
+vendor/firmware/ipa_fws.b01|45bf8fc573ab363409c63ee17492a2baef1e57f4
+vendor/firmware/ipa_fws.mdt|4ceb64e6325893b0eaecdb66df5faaa4af312eab
 
 # IRQ balance
 vendor/bin/msm_irqbalance
@@ -1076,16 +1078,16 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so|5496f7816036ef71aec0116864032f8a60
 vendor/lib64/vendor.somc.hardware.miscta@1.0.so|16fae03c35b3b376b39a67741b44ef058c213eb2
 vendor/lib64/vendor.somc.hardware.security.secd@1.1.so|a3e3e37b00e478c022f82eb41dfd5f2113a47ce5
 
-# SECD firmware
-vendor/etc/firmware/tzsuntory.b00
-vendor/etc/firmware/tzsuntory.b01
-vendor/etc/firmware/tzsuntory.b02
-vendor/etc/firmware/tzsuntory.b03
-vendor/etc/firmware/tzsuntory.b04
-vendor/etc/firmware/tzsuntory.b05
-vendor/etc/firmware/tzsuntory.b06
-vendor/etc/firmware/tzsuntory.b07
-vendor/etc/firmware/tzsuntory.mdt
+# SECD firmware - from SW_binaries_for_Xperia_Android_12_4.19_v3a_tama
+vendor/firmware/tzsuntory.b00|a80f4e5dc84be40fb68db06a6339ff00a4f3b764
+vendor/firmware/tzsuntory.b01|ed7e832c75815218b5d0be586827d73b9b5d782e
+vendor/firmware/tzsuntory.b02|cc41812e4bfa987ee5468f7c9cf415b98a1ae021
+vendor/firmware/tzsuntory.b03|195cb336e39af101ec3d4d6f2e4979950b064335
+vendor/firmware/tzsuntory.b04|30b2d28bbd75d6d21397c8ce0ff1abe0a0d2028c
+vendor/firmware/tzsuntory.b05|44faf0d4b5c2e9dd9527301cdcfe4edf71649d5d
+vendor/firmware/tzsuntory.b06|5dfb20ea0d26ff94ec36deae5e1b5e3364c0cddb
+vendor/firmware/tzsuntory.b07|02532232c05a8dba817ee3ed0d873a0644d65843
+vendor/firmware/tzsuntory.mdt|f43061001fba5d42ad03ba7015f9626c0e986056
 
 # SCT
 vendor/bin/sct_service
@@ -1183,17 +1185,20 @@ vendor/bin/ta_qmi_service|5300d0423f2f6fb559c5255e21ed9de68d7b796c
 -vendor/lib/libta.so|f9995dac15f63424c61cb074dff9e931d90767f5
 -vendor/lib64/libta.so|b6a7050d3252de5e94649f78798d838c3027fb5c
 
-# Trimarea
-vendor/etc/firmware/tztpm.b00
-vendor/etc/firmware/tztpm.b01
-vendor/etc/firmware/tztpm.b02
-vendor/etc/firmware/tztpm.b03
-vendor/etc/firmware/tztpm.b04
-vendor/etc/firmware/tztpm.b05
-vendor/etc/firmware/tztpm.b06
-vendor/etc/firmware/tztpm.b07
-vendor/etc/firmware/tztpm.mdt
-vendor/lib64/libtpm.so
+# Trimarea Firmware - from SW_binaries_for_Xperia_Android_12_4.19_v3a_tama
+vendor/firmware/tztpm.b00|f448a7c9078e00669334b5a5a9bdc2e4dc2c0ef8
+vendor/firmware/tztpm.b01|8fd11c0d9a2f08b77958ca881cebd8d52af01af8
+vendor/firmware/tztpm.b02|513a9fa2ef657ccf0fcc0124e41dcfe174ba9dd0
+vendor/firmware/tztpm.b03|2a8dd85b3cc27d11fc9134e50a9731be804dbc21
+vendor/firmware/tztpm.b04|16e54086269f8376b826fe594a6dbf013a6f10d8
+vendor/firmware/tztpm.b05|d30fa79a5a19b6ad8082dcbf427b036d67362639
+vendor/firmware/tztpm.b06|6d167997139ce6d9895ac638d74645b1ad8adc2a
+vendor/firmware/tztpm.b07|f35cd4ec84920ec56fdc87e1449b131579150214
+vendor/firmware/tztpm.mdt|6574cf5c438f7c2cc2713224d7f35a0173d16df7
+
+# Trimarea - from Sony/XQ-AS72
+vendor/lib64/libintegration.so|a0a50dcd9f2164c68c78c19e52d7697f866dfef5
+vendor/lib64/libtpm.so|d8f20bba5dcd1fd744e87615b007ee4610277b12
 
 # Thermal engine - from Sony/XQ-AS72
 vendor/bin/thermal-engine|15de1095ccfdd337c70a34cf0989ed08f334d2e6
@@ -1257,37 +1262,37 @@ vendor/lib64/liboemcrypto.so|c087ddd62e803e029e7b6ef2fd6e987ef539debc
 vendor/lib64/libwvhidl.so|1e80d82c608a716af89c49c986cace1fd40bfa05
 vendor/lib64/libwvtee.so|a04108b8b1c6da74b72df954a9f613ee420e2d93
 
-# Widevine DRM firmware - from Sony/XQ-AS72
-vendor/firmware/tzhdcp.b00|06d26d146f29f5c0cbb76346db3126399dadd91a
-vendor/firmware/tzhdcp.b01|7a0fc2315ba8cd03e0aeac9136ae4e1f79705351
-vendor/firmware/tzhdcp.b02|966e475098f9cdafed445c5a039894d5ebae2416
-vendor/firmware/tzhdcp.b03|9f84c027328f909c041d454b7718b943be5232e0
-vendor/firmware/tzhdcp.b04|013516b5450ec209c13a566248f3de37bdd5f63c
-vendor/firmware/tzhdcp.b05|9d11799abeaf5813e1533cd182a0dd453c550469
-vendor/firmware/tzhdcp.b06|f432751f55d48c4ef314ae9c62bc3c22d73d53ad
-vendor/firmware/tzhdcp.b07|3cea2c4b1bec2dcb400fe54bd5f52a81806d642c
-vendor/firmware/tzhdcp.mdt|c717c014a37bb5b231012e498487f77d3d5f17dd
-vendor/firmware/tzwidevine.b00|612a9f669656c6b0979b2a1b1ae2e079a3337a5c
-vendor/firmware/tzwidevine.b01|58b8fe1c7ebcd29b5e4ea20b8f502c24ed29bbde
-vendor/firmware/tzwidevine.b02|f635fad9a7e8c15f1ed538637697f50eaa0202c7
-vendor/firmware/tzwidevine.b03|0843badaacae2b4acd5147bdde8b0f97b4feeba5
-vendor/firmware/tzwidevine.b04|bf12bf5610454d828770881a6c8300ad7d55a2ed
-vendor/firmware/tzwidevine.b05|881dd87cab3af9560aca368da091a1b0d577f9e3
-vendor/firmware/tzwidevine.b06|55a4cbd0ae36f128aa78dedf53ea29e757d80d73
-vendor/firmware/tzwidevine.b07|56842cf77d1f82b38aacb1ec1e10e60bd8430ee4
-vendor/firmware/tzwidevine.mdt|f980c1422f9d97a9c88192879d900d5f046c91cc
-vendor/firmware/tzwvcpybuf.b00|7c88ee79a811132afb858ab3e01ccfdd870f0140
-vendor/firmware/tzwvcpybuf.b01|b11f4f91d4b0e10951efcd8b510435726dd37402
-vendor/firmware/tzwvcpybuf.b02|86728414d4378c728bd32880a9f66027c620579e
-vendor/firmware/tzwvcpybuf.b03|6833695c5047c6a5231c07458a52fc82cbfb9972
-vendor/firmware/tzwvcpybuf.b04|71dc4886b572ec02b4e3e6f212f7115452a32d36
-vendor/firmware/tzwvcpybuf.b05|d5b7a40dc1687fe296195e9ba53598de3626b45f
-vendor/firmware/tzwvcpybuf.b06|093f649edeebadd1b1e7a8c42518679253481502
-vendor/firmware/tzwvcpybuf.b07|f44056d1c38639638d9035dd0eb2f8ecc28e6447
-vendor/firmware/tzwvcpybuf.mdt|ca71924d0f0444285983007eb1c5e41da4eb7aee
+# Widevine DRM firmware - from SW_binaries_for_Xperia_Android_12_4.19_v3a_tama
+vendor/firmware/tzhdcp.b00|63a8ed11d7650132504a12611095fef94ae81277
+vendor/firmware/tzhdcp.b01|17c55e61ab08ed4dc0c2758e2560c2841e189db4
+vendor/firmware/tzhdcp.b02|57dfc2da8edbf8d95bf81a9bbb201e267ab41778
+vendor/firmware/tzhdcp.b03|1868b2e0482abb58051e9270c262a3c4f76ad26f
+vendor/firmware/tzhdcp.b04|84dd5a2f67dd56dd17455b76c14fcc16aef3015a
+vendor/firmware/tzhdcp.b05|9b3c1c92f12958bb4bc462ce714ddab5417a0789
+vendor/firmware/tzhdcp.b06|2840c70a90b5c654749e7a3a3757572b3409986b
+vendor/firmware/tzhdcp.b07|f429c143a8f0cc12f18e3d41dcc9fd353bc2e570
+vendor/firmware/tzhdcp.mdt|a680bef6d21ce4d54a7c13e4b33d1c53369922b8
+vendor/firmware/tzwidevine.b00|57e6d55de41ad10dd980db78239dc49110c7fb55
+vendor/firmware/tzwidevine.b01|e4a899a6b8bdf50793444cb88b9d6a9ac179e251
+vendor/firmware/tzwidevine.b02|e880c93567fc2b5dec2deb2263fb90d8dccb8cb7
+vendor/firmware/tzwidevine.b03|5eb55fbeeaa36337feb605e670c9ed984690c9c7
+vendor/firmware/tzwidevine.b04|ebe1465e673d1d88e09f0b8179c08735a118e4c8
+vendor/firmware/tzwidevine.b05|a29ba36381d2547be361ab9d45c550cc252b8113
+vendor/firmware/tzwidevine.b06|5b6e5ceca41777b1df77fe77fbf311443deaf9e7
+vendor/firmware/tzwidevine.b07|0bd2322b05047bcc83234c1855ee6ce5b76c607d
+vendor/firmware/tzwidevine.mdt|e73847e1b1f387485f0713ea7af83335bc2e542c
+vendor/firmware/tzwvcpybuf.b00|9a4ae23df8dde94333daab89d129815dbb5e8281
+vendor/firmware/tzwvcpybuf.b01|8687d32c670c3acfb8631b7e38f0048e2e109cff
+vendor/firmware/tzwvcpybuf.b02|e7da9f6aaf6be4b1ca952646492f91dd526f6bfe
+vendor/firmware/tzwvcpybuf.b03|f677d0ae0cdce5f35c17d37599dca557b7a761dd
+vendor/firmware/tzwvcpybuf.b04|0e26414cb8d8ff28022fffa6ce4fec96e3b5c741
+vendor/firmware/tzwvcpybuf.b05|e0f95f7c735558c5b16db10e803752e8ddc59567
+vendor/firmware/tzwvcpybuf.b06|2bca7112bb79eb49dbf723c222160ca33e232879
+vendor/firmware/tzwvcpybuf.b07|f0c24812c17bf1e584a0acb1868cbd4a1b3cc4d5
+vendor/firmware/tzwvcpybuf.mdt|c8f25adeaf9eb7e5b4299dbacd10b412f418f9e5
 
-# WiFi - from FP4
-vendor/bin/cnss-daemon|c551daebbd5c0d58125f5537eeffd817b227fc87
+# WiFi  - from SW_binaries_for_Xperia_Android_12_4.19_v3a_tama
+vendor/bin/cnss-daemon|807da1b696e03de0ab112fe16f5bd7d521cd272f
 
 # WiFi Display (system) - from lemonadep - LE2125_11.F.18
 system/framework/WfdCommon.jar|323859204993cb8bf89821baeb08a6a85e750c65
