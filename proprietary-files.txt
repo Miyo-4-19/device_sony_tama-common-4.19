@@ -154,23 +154,23 @@ vendor/lib64/libbt-hidlclient.so|927061e4b710d719cee02f14e86b659885977910
 vendor/lib64/libbtnv.so|0c74a43550b939b9496b03b3285fa950cf560c48
 
 # Bluetooth (A2DP) - from Sony/XQ-AS72
-vendor/lib/btaudio_offload_if.so|d0d65c2b38fc69d14cd6af3c8652ef91f37bb06a
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|7d9503fce83522d27bcdae531a4e0b320281f85f
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so|a83e30d60645db71d5fcb57ef1dd708af95ed662
 vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|6a950eaa3066fcba19e1d94a04e5823059a951a8
 vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|de18f44f36a89f8fb8c8b6f5d2e0bff73acaabea
 vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|b2d984f5f0ed37f70b63a22d4d351d38b5c5e372
+vendor/lib/btaudio_offload_if.so|d0d65c2b38fc69d14cd6af3c8652ef91f37bb06a
 vendor/lib/libbluetooth_audio_session_qti.so|0b306bac29ba1beff74c9e84785f0e77efb4402c
 vendor/lib/libbluetooth_audio_session_qti_2_1.so|b894e2e3768c2f3d6a21fae79a92663822e53450
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|42595c79d388cc5ba1c2f50a0caa20640d5d5708
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so|b719b696b47d5ba10547bc7a969dd527e61ba650
 vendor/lib/vendor.qti.hardware.fm@1.0.so|c036fbe16575a800994792431d10f6d1173cea26
-vendor/lib64/btaudio_offload_if.so|d9ebe8e2828a5029f8e1c79ca9d7560d7f91488c
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|8bfbc542d600d4986b7c42281ffccfa75094ca5b
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so|66547bbe6adc68fa248f8758fbf2d3435cfe8e7d
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|156ec51ccb53f667605cf99422abf9357888b4b6
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|a9685a3bc4d4c5a0afbd915ec7babd2ba3e929ff
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|3e1a8c52d73ef5e67bea68610906627226aabe21
+vendor/lib64/btaudio_offload_if.so|d9ebe8e2828a5029f8e1c79ca9d7560d7f91488c
 vendor/lib64/libbluetooth_audio_session_qti.so|78bb8ada323d87a93600009557949bd1552877f0
 vendor/lib64/libbluetooth_audio_session_qti_2_1.so|f298669097abb8b47a24c46e4bf4eae872781299
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|23706dcfa35cc6f7dee934e13886c19a56a9aa12
@@ -215,6 +215,11 @@ vendor/bin/hvdcp_opti
 -system_ext/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar|9d7f91c67f2fb51a35645f96aa98e24665947f58
 -system_ext/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar|553dd6e8dc4b95cb7704e1bd415f72d66632655a
 -system_ext/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar|4b1f2162233adedc7c491c866f3fd5ce13ace49c
+-system_ext/lib64/com.quicinc.cne.api@1.0.so|684ec3f36a4d0238e68efe339126545304b7eeff
+-system_ext/lib64/com.quicinc.cne.api@1.1.so|92a7dba9a54ab209cc30f80b4d3b5b002534fc2e
+-system_ext/lib64/com.quicinc.cne.constants@1.0.so|11156088eab8eee6116e8849538ebf782563cafc
+-system_ext/lib64/com.quicinc.cne.constants@2.0.so|ceb4db415e92c8fcb5e2b0e7301b4453c41ed583
+-system_ext/lib64/com.quicinc.cne.constants@2.1.so|506e975e88003c483ab0ab39099bc2e7d7ea3112
 system_ext/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so|3883d1632c1ca6341ed12810e49c03ce54b56f16
 system_ext/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so|7518bc73394f8194e92a0028ad13712f8987d12d
 system_ext/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so|59a27cae5b460ae4f4c9a8e029ec3e0e4abe42f0
@@ -225,8 +230,6 @@ system_ext/lib64/vendor.qti.hardware.data.iwlan@1.0.so|2ec2a2ac371f399113934245b
 system_ext/lib64/vendor.qti.hardware.data.qmi@1.0.so|f9a1c9598ff9fc0b3deb1a3718026aeb5af6b599
 -vendor/app/CneApp/CneApp.apk|3aee3bf79803c9a35b02f1f3a9f3323077c263c6
 vendor/bin/cnd|d6c37ea42f1df64283e6ce50408a1f7f64a56a1a
-vendor/etc/cne/mwqem.conf|c42ad47b34b511075e5dfb9047d32f881fe0c159
-vendor/etc/cne/profileMwqem.xml|947917691684584b7e2ddf3588cd6f8e99f3804f
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml|578f3f8f56059bfdbef926bcc68d01c15e06951f
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml|1fb42c672a12b6660bdce3ea94e0c43719dd9de8
 vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml|f88e13f1dd7b82388c90358f71813026370c9ed8
@@ -284,6 +287,8 @@ vendor/etc/cne/wqeclient/VZW/VZW_profile3.xml|9b123d81c9b8991499cda33b0706810e0c
 vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml|ff91feb5060a6df07e3e4d9bc99ae58bccad7649
 vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml|f76c894f3c6d5b6ed35113a088dc3174c900501b
 vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml|14d136e7fcc682311757d3edc0b9d3eaeba11815
+vendor/etc/cne/mwqem.conf|c42ad47b34b511075e5dfb9047d32f881fe0c159
+vendor/etc/cne/profileMwqem.xml|947917691684584b7e2ddf3588cd6f8e99f3804f
 vendor/etc/default-permissions/com.qualcomm.qti.cne.xml|4ad3743661778e81268af1311342653b36dfc655
 vendor/etc/init/cnd.rc|3a5183df3479500fb729493bc56c71166fc10bce
 vendor/lib/libcne.so|3adffb96dbc899c4d8fc5609addc9111f76307f2
@@ -334,11 +339,6 @@ vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so|92cd220e35b2dfa359f8d9ab8ff
 vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so|3904e6ce6a6a551826e900eb29bc2718fd828c77
 vendor/lib64/vendor.qti.latency@2.0.so|60ab3143325e855f8c72e3f603c28efe2e7227b9
 vendor/lib64/vendor.qti.latency@2.1.so|47f0d25338274af94764be9d39eabef8cf5ca790
--system_ext/lib64/com.quicinc.cne.api@1.0.so|684ec3f36a4d0238e68efe339126545304b7eeff
--system_ext/lib64/com.quicinc.cne.api@1.1.so|92a7dba9a54ab209cc30f80b4d3b5b002534fc2e
--system_ext/lib64/com.quicinc.cne.constants@1.0.so|11156088eab8eee6116e8849538ebf782563cafc
--system_ext/lib64/com.quicinc.cne.constants@2.0.so|ceb4db415e92c8fcb5e2b0e7301b4453c41ed583
--system_ext/lib64/com.quicinc.cne.constants@2.1.so|506e975e88003c483ab0ab39099bc2e7d7ea3112
 
 # Configstore - from Sony/XQ-AS72
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service|81be3e1c39280c1bed769ff4e3bee25b4ef1195e
@@ -375,14 +375,13 @@ vendor/lib64/vendor.display.postproc@1.0.so|86ef4e868f7abb95d555a4d086a8c4193920
 
 # DPM - from Sony/XQ-AS72
 -framework/tcmclient.jar|60fc12be7581c89cbdc3a5ba0526b423af492baa
--system_ext/framework/com.qti.dpmframework.jar|065a1864f817cda3dc59a96c3f62b0f1df517129
--system_ext/framework/dpmapi.jar|005e8092687849615ce119b5d6c188f08e397d79
--system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|d768c9f4613a7c3f9b5d491b6e2f9b0d7809a66b
 system_ext/bin/dpmd|d4073d02594eb71dcc850b1120ac508d1e4350c8
 system_ext/etc/dpm/dpm.conf|7819ef30cea23b5c163e26f456a570613a33359d
 system_ext/etc/init/dpmd.rc|738b638ff04cda368e22c03e16baf90ba157a6fc
 system_ext/etc/permissions/com.qti.dpmframework.xml|c4b7ad0879d00c1eba4f3fe3a88ddb8aa153629a
 system_ext/etc/permissions/dpmapi.xml|255903759a60a31c0876ec004e74554c753270fe
+-system_ext/framework/com.qti.dpmframework.jar|065a1864f817cda3dc59a96c3f62b0f1df517129
+-system_ext/framework/dpmapi.jar|005e8092687849615ce119b5d6c188f08e397d79
 system_ext/lib/com.qualcomm.qti.dpm.api@1.0.so|285d19f42f6bd79ea8d1f4d1de4bd1f8dc89cb61
 system_ext/lib/libdiag_system.so|07021d95bcf0e2bd108a0fd8cbec56ff441a8f17
 system_ext/lib/libdpmctmgr.so|4e48e821c94f3633535b23b0ba24da0dd4f9c9e4
@@ -397,6 +396,7 @@ system_ext/lib64/libdpmfdmgr.so|3b7c5a6c652948fa86790478d4fcbd0df3172947
 system_ext/lib64/libdpmframework.so|89684b3e906ba879cfde173d8a6cc6e6d5e2c755
 system_ext/lib64/libdpmtcm.so|ac8bb063de43870f67e2aba15eee5baaa9864c84
 system_ext/lib64/vendor.qti.diaghal@1.0.so|d7da0a8ab2f517368b8a75eca519f038f4027441
+-system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|d768c9f4613a7c3f9b5d491b6e2f9b0d7809a66b
 vendor/bin/dpmQmiMgr|df41c54776abef6edb12b1cd6d250abf5ea6c0a5
 vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
 vendor/lib/com.qualcomm.qti.dpm.api@1.0.so|8e97eba901841227ae7029f535a747fdefd6c369
@@ -467,8 +467,6 @@ vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 
 # GNSS - from Sony/XQ-AS72
 -vendor/app/CACertService/CACertService.apk|c57bd778e1390a7204fc1b19c05c464fc27587e5
--vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml|1c344aacaa6d17a1585ba58b2e6d438dcfe31fad
--vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti|ec8dd6ddeecb9539899ec89a5950d422b6ece916
 vendor/bin/loc_launcher|be9f321e7c03e038749239ae4accd3db00949e2c
 vendor/bin/lowi-server|41cc5deda4cdf3696ed6c0bdd410b20513601185
@@ -477,19 +475,21 @@ vendor/bin/slim_daemon|7629fa3e3d29cea6e672801d8264cbbb174f32cd
 vendor/bin/xtra-daemon|4608daad77d886baf5c9cdb2e70852048f0f6950
 vendor/bin/xtwifi-client|a57cae665b3c59e2c0f53301f0f610231559efc8
 vendor/bin/xtwifi-inet-agent|4aabf2e71422b105a76a3064175b2399cb89fc4e
+vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc|d3844699c845ce5de4c8b50548a2095f92dd0235
+vendor/etc/seccomp_policy/gnss@2.0-base.policy|abafcf09068ec6fa62f8fc11ce6a7f51fe4cfb81
+vendor/etc/seccomp_policy/gnss@2.0-xtra-daemon.policy|3f8e3466eaeb966e57c5b79b688a618295eb4b17
+vendor/etc/seccomp_policy/gnss@2.0-xtwifi-client.policy|45b44cf547358961841aeba728851e32dc0a5230
+vendor/etc/seccomp_policy/gnss@2.0-xtwifi-inet-agent.policy|9c0419bf0a0b4ef129527a9d4c024a624ff34d6e
+-vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml|1c344aacaa6d17a1585ba58b2e6d438dcfe31fad
+-vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
 vendor/etc/apdr.conf|52c9b4265e55c87ddf07c9b60817b3c09420712a
 vendor/etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
 vendor/etc/flp.conf|8c8642685c225fa0b715c284481018a527dae451
 vendor/etc/gnss_antenna_info.conf|4f436d32bf096bd9251602e08c64e357ee709bad
 vendor/etc/gps.conf|8302ba0f6482becd9e3b1e6419c62ca25c3c772c
-vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc|d3844699c845ce5de4c8b50548a2095f92dd0235
 vendor/etc/izat.conf|fa983302ef82b591c97fd4cd317a5053548d7768
 vendor/etc/lowi.conf|2045e83483849a124e5fef052b59190f1b784df0
 vendor/etc/sap.conf|b5ea86d9d9ee36dc13194474d343dae36f6fa032
-vendor/etc/seccomp_policy/gnss@2.0-base.policy|abafcf09068ec6fa62f8fc11ce6a7f51fe4cfb81
-vendor/etc/seccomp_policy/gnss@2.0-xtra-daemon.policy|3f8e3466eaeb966e57c5b79b688a618295eb4b17
-vendor/etc/seccomp_policy/gnss@2.0-xtwifi-client.policy|45b44cf547358961841aeba728851e32dc0a5230
-vendor/etc/seccomp_policy/gnss@2.0-xtwifi-inet-agent.policy|9c0419bf0a0b4ef129527a9d4c024a624ff34d6e
 vendor/etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
 vendor/etc/xtwifi.conf|ac2189707c0016c31846ccec73e8857d7f566605
 vendor/lib/libcdfw_remote_api.so|06b5bbd584896467a88bf503952d753e83f6ee6b
@@ -594,12 +594,12 @@ system_ext/framework/com.android.hotwordenrollment.common.util.jar|bef92589e75a6
 # IDD - from Sony/XQ-AS72
 vendor/bin/hw/vendor.semc.system.idd@1.0-service|9c847e804fced03e9f524c18ba33d63671ad3dbc
 vendor/bin/iddd|30b38044cf9e2eb60036b83c7723e18394c1760b
-vendor/etc/idd.fstab|3b0f0b35e10b3697a54f8582999faca2e362bbb9
-vendor/etc/iddd_user.conf|9b2ddcc3f686bab8ad01f1a0b1332521bd91c33a
 vendor/etc/init/init.sony.idd.rc|64fc4367d14a04a37941e1ee5792e6138c235b12
 vendor/etc/init/vendor.semc.system.idd@1.0-service.rc|1e1a1949da52ddfa797270ea3e030b524520de57
 vendor/etc/security/idd_config.pem|74cca1b8ecda88011840b0fe77e5e8fe6b9d7a4c
 vendor/etc/security/idd_report.pem|b680af3cf274bd858370be8933ac20e7f4a96d5d
+vendor/etc/idd.fstab|3b0f0b35e10b3697a54f8582999faca2e362bbb9
+vendor/etc/iddd_user.conf|9b2ddcc3f686bab8ad01f1a0b1332521bd91c33a
 vendor/lib/libidd.so|e84ff596f094c5f638a3360dd755e47d54b5d75c
 vendor/lib/vendor.semc.system.idd@1.0.so|4dced47b3f6298c30b3c011aa15fed349c193f1f
 vendor/lib64/libidd.so|685cdffd41f542751647e6fb9d3de18d6c5709a8
@@ -609,12 +609,11 @@ vendor/lib64/vendor.semc.system.idd@1.0.so|4a118ed82450172b6404d968156d44a407f7a
 # IMS - from renoir - 22.5.11
 -system_ext/app/ImsRcsService/ImsRcsService.apk|d03d3142f3518e755d02ace26b17170218ed8b4b
 -system_ext/app/QtiTelephony/QtiTelephony.apk|f2ea59dfc69126c83905979e2d55d7c5f02e15e1
--system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar|a5791aa90552999909e52648d576055a8c533397
--system_ext/priv-app/ims/ims.apk|f0d834acbc77e7830459e0246f5073e1b9ba8657
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml|a7e114ea1e6909685ce49717a2b5b66d8275d419
 system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml|54487895eb4c26e6ec642538dba910de9b092c81
 system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml|83fb6029772c3a425dbd5cd45a61ca9d427e7604
 system_ext/etc/sysconfig/qti_whitelist_system_ext.xml|e34b3affaef4e4ee135cbeec8d7c3e8c6cfd65ce
+-system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar|a5791aa90552999909e52648d576055a8c533397
 system_ext/lib64/lib-imsvideocodec.so|e1e994cb122ad48b77ae10295a29bcfbe84e4d22
 system_ext/lib64/lib-imsvt.so|38b39cafe351be5abc7b6ae5055ea1f390032502
 system_ext/lib64/lib-imsvtextutils.so|16bed08e80919635fcb7ace934bd5f16f059c182
@@ -623,6 +622,7 @@ system_ext/lib64/libdiag_system.so|35bace09ba74af348b9530fb02cf7088c90a44fd
 system_ext/lib64/libimscamera_jni.so|ff3d65093f5bf19fba95798b0a121ee510b0f72e
 system_ext/lib64/libimsmedia_jni.so|9f192af40439abb04d5d5f0f3de5b772c9381114
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|0c11ff5a7a671073ee40e17d46aa8b7acbf1dc0a
+-system_ext/priv-app/ims/ims.apk|f0d834acbc77e7830459e0246f5073e1b9ba8657
 
 # IMS (Vendor) - from Sony/XQ-AS72
 vendor/bin/ims_rtp_daemon|5bce1851feca157c9847e09b72057b07fca286d9
@@ -831,6 +831,8 @@ vendor/lib64/vendor.somc.hardware.modemswitcher@1.0.so|981a107e38343e091b9ff5696
 # Neural networks - from Sony/XQ-AS72
 vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti|d5616ee296badd26fd49f8b0db25c2e217f25473
 vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc|4b7f2c5f914f3eef38f19936c0a06efc09b5b28c
+-vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml|57e182a296097870a4c4ed1579c67da20c2b69de
+-vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml|ac07e83ba7c2a87a2f216f04ec84df4539ea8507
 vendor/lib64/libhexagon_nn_stub.so|dabb2252d52bfde40d7c1e41487b2912f6d013f3
 vendor/lib64/libhta.so|b885aa3b34b394d1b4948b9e817f20c0522cebd9
 vendor/lib64/libhta_hexagon_runtime.so|9763187af956bcc02e00540ebdfd16b6bd0e44c7
@@ -838,8 +840,6 @@ vendor/lib64/unnhal-acc-adreno.so|9c5d8c601bad1c6ddf8e26ba9c7d9dc5511ac931
 vendor/lib64/unnhal-acc-common.so|0b1e861dc50ddaa2d9e9fc9e031bda50799d9c0a
 vendor/lib64/unnhal-acc-hta.so|4fecd9f66e1bc743ca0ca7077fc1b7a1a35d0636
 vendor/lib64/unnhal-acc-hvx.so|6a6b14ad086de426691ff5ef1ba903d631feea0a
--vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml|57e182a296097870a4c4ed1579c67da20c2b69de
--vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml|ac07e83ba7c2a87a2f216f04ec84df4539ea8507
 
 # NFC
 vendor/lib64/libpn553_fw.so:vendor/lib/libpn553_fw.so
@@ -912,9 +912,18 @@ system_ext/lib/com.qualcomm.qti.ant@1.0.so|f8549f8c783e61e97be9a97bcb8bf80d5989d
 system_ext/lib64/com.qualcomm.qti.ant@1.0.so|63b1bbc513d0d0d90d07d97c61330414f4c26c09
 
 # Radio (IMS) - from Sony/XQ-AS72
+product/etc/permissions/telephony_product_privapp-permissions-qti.xml|42f4553b61731e56d253766554d4479519cea3ff
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|71e41ce8956b357db045cc92877587a7b419ca9f
 -system_ext/app/embms/embms.apk|a61b2ab0c3d7791cf05733bde2429e24b53ec582
 -system_ext/app/uceShimService/uceShimService.apk|b8f8d9995ebe036752dd078b015c5d27253ac52a
+system_ext/etc/permissions/com.qualcomm.location.xml|1d36e7cf8e16813aa13ee6b3fca8d8687b543828
+system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml|bd9fc166b542b4e730f194ebc996957770d9d497
+system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml|b40fc74f7d5e58b4e918f952b89a79cf2a5c4088
+system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml|bfceff47fb0b55a418bed71de6050d876a776ac7
+system_ext/etc/permissions/com.qualcomm.qti.imscmservice.xml|db25ef24f1937366d58a53b4f4b8923bc9e98d2d
+system_ext/etc/permissions/com.qualcomm.qti.izattools.xml|5322f31201ffb8ab62d141beb24bc880c7aed8c8
+system_ext/etc/permissions/embms.xml|22e7474091f9f71f02dd0cfc76cfa8848a46f079
+system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
 -system_ext/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar|33f9e0fd98d6475808a9eedf64268c20b40fd35c
 -system_ext/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar|92c25f99395fc44b5978b46069e0b3157fbddb1e
 -system_ext/framework/com.qualcomm.qti.imscmservice-V2.2-java.jar|4c2bd89c3216d0bab559eab477fac6ce3ede895e
@@ -924,16 +933,6 @@ system_ext/lib64/com.qualcomm.qti.ant@1.0.so|63b1bbc513d0d0d90d07d97c61330414f4c
 -system_ext/framework/qcrilhook.jar|4052debfcf6c39ad4da3ecc528cbac386b4f4351
 -system_ext/framework/vendor.qti.ims.callinfo-V1.0-java.jar|80f964af0edd0093fee1dd84d2c54519d653231a
 -system_ext/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar|907a833d2c6716024c4272445366f0ed7c462313
--system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|7b746e18fbe7a2ef74f68c5512e56645738b7e0c
-product/etc/permissions/telephony_product_privapp-permissions-qti.xml|42f4553b61731e56d253766554d4479519cea3ff
-system_ext/etc/permissions/com.qualcomm.location.xml|1d36e7cf8e16813aa13ee6b3fca8d8687b543828
-system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml|bd9fc166b542b4e730f194ebc996957770d9d497
-system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml|b40fc74f7d5e58b4e918f952b89a79cf2a5c4088
-system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml|bfceff47fb0b55a418bed71de6050d876a776ac7
-system_ext/etc/permissions/com.qualcomm.qti.imscmservice.xml|db25ef24f1937366d58a53b4f4b8923bc9e98d2d
-system_ext/etc/permissions/com.qualcomm.qti.izattools.xml|5322f31201ffb8ab62d141beb24bc880c7aed8c8
-system_ext/etc/permissions/embms.xml|22e7474091f9f71f02dd0cfc76cfa8848a46f079
-system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
 system_ext/lib64/com.qualcomm.qti.imscmservice@1.0.so|73e61cc5f7d3a6b8e7f8a97e1673de227f599211
 system_ext/lib64/com.qualcomm.qti.imscmservice@2.0.so|4fdaaaf19c27ae32c14777aa63638f9e606a0e58
 system_ext/lib64/com.qualcomm.qti.imscmservice@2.1.so|89bc26144a4c11f1437f0203ef1848fcb1d5167f
@@ -943,13 +942,14 @@ system_ext/lib64/com.qualcomm.qti.uceservice@2.1.so|4346a8d2218fdb079dad4463918c
 system_ext/lib64/vendor.qti.ims.callinfo@1.0.so|b766bca8ff14667f13f45f66c82fcf259f5b1e2b
 system_ext/lib64/vendor.qti.ims.rcsconfig@1.0.so|2d3d02f25be00f48524a0838e0d47bdd823ca73c
 system_ext/lib64/vendor.qti.ims.rcsconfig@1.1.so|d15c194e25a6e1dc581c03ae323fd1fe0a00596b
+-system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|7b746e18fbe7a2ef74f68c5512e56645738b7e0c
 vendor/lib/vendor.qti.data.slm@1.0.so|65c59dd2e4608a2ea76c2d83a11d79a10c2b4129
 
 # Radio (Vendor) - from Sony/XQ-AS72
 -vendor/app/IWlanService/IWlanService.apk|a3b0b6541c126900989e4f624ff9e8ca1a412da5
+vendor/bin/hw/qcrild|4230d30262c4cd93ac82a34479183b5dc815d3d5
 vendor/bin/ATFWD-daemon|fd9c3fe53f69c5135be2a4768aca0cc7be222033
 vendor/bin/adpl|13fd5c83cc17b88fb6759b5cc1d2b47dd488e9b4
-vendor/bin/hw/qcrild|4230d30262c4cd93ac82a34479183b5dc815d3d5
 vendor/bin/ks|2bcc675556cd146a8a785145f9d2caa1b659b185
 vendor/bin/mdm_helper|142f3c25f90037fd6218b271458fb20bc341888d
 vendor/bin/netmgrd|cd02bbda02d1902cd0523bdb43dec5f66724cfc9
@@ -1031,7 +1031,6 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so|663b65448ec8f597
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so|3ffb7301b6c185b114157c5423de604e5ba93ade
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so|75a58827c0b4e06e2ca8163b6a904dab2af3be6a
 vendor/lib64/vendor.somc.hardware.radio@1.0.so|124136b619146d68745859af715df11a7ab2b1d2
-vendor/radio/qcril_database/qcril.db|75aab7ed75f2405d7b08dba9e0a497ae76cda22d
 vendor/radio/qcril_database/upgrade/0_initial.sql|8f77b67235d9667a9ce4723eab61faa17784520a
 vendor/radio/qcril_database/upgrade/10_version_update_ecc_table.sql|1ca05b047116cbc776f71d3bdba4952b18b04229
 vendor/radio/qcril_database/upgrade/1_version_intro.sql|67b96cb3e94737bfe271b2519b9eb5fae17373a2
@@ -1043,6 +1042,7 @@ vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql|0fdf4b6ccb489
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql|254e69db36c870c12c6f53223527aa387ed4043d
 vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql|791185a5a962fee4099316f32827882df420c0b8
 vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql|4701219a79190995eda651e5c45e11c9b111a478
+vendor/radio/qcril_database/qcril.db|75aab7ed75f2405d7b08dba9e0a497ae76cda22d
 
 # QRTR - from Sony/XQ-AS72
 vendor/bin/qrtr-cfg|9019f1c99cb23913f540433285af0d26c397c121
@@ -1171,8 +1171,8 @@ vendor/etc/sensors/hals.conf
 
 # Snapdragon Computer Vision Engine - from Sony/XQ-AS72
 vendor/lib/libfastcvdsp_stub.so|7f27cee24281bc9bf4f08c6100cc66bd650d8efb
-vendor/lib64/libfastcvdsp_stub.so|9813b36faa8029bdb358126c2996207fc7704d32
 -vendor/lib/libfastcvopt.so|eb6e1052f12b45f2f651f1437e6072459648f2f3
+vendor/lib64/libfastcvdsp_stub.so|9813b36faa8029bdb358126c2996207fc7704d32
 -vendor/lib64/libfastcvopt.so|0796b9092eb285d7689a8e6c4478a88a1d7e6e87
 
 # TA daemon - from Sony/XQ-AS72
@@ -1201,14 +1201,14 @@ vendor/etc/init/init_thermal-engine.rc|81db55b46aff68f205edef373e7fbc607572f7e7
 vendor/lib/hw/thermal.somc.so|299824809f101543faf0ac5398f3ad77f2a5ddb5
 vendor/lib/libsomc_thermal.so|0364b587cf5ade61275b8fe2ffa5bd84f372cb37
 vendor/lib/libthermal_engine.so|5288ed2e804325d8193f7855fb51db15ba695879
+-vendor/lib/libthermalclient.so|20114bc026d44fd2599f6ea11814c0f47608d2ff
 vendor/lib64/hw/thermal.somc.so|f8a572a714be25775ea8db904cb800561edac0d2
 vendor/lib64/liblights-core.so|98da4418c59486c989b14abf299eade03f585636
 vendor/lib64/libsomc_thermal.so|726ce71d4a7d96be34029f31ec10f7a40f9b8c66
 vendor/lib64/libsys-utils.so|cc0fda2b9c9b4510312f54a8ce88c9f922641ee5
 vendor/lib64/libthermal_engine.so|0d599044da9c68193fdbc985e32167b1d713aeaf
-vendor/lib64/vendor.semc.hardware.thermal@1.0.so|5cb582da0e77647e1dd015d8f574ec9588872845
--vendor/lib/libthermalclient.so|20114bc026d44fd2599f6ea11814c0f47608d2ff
 -vendor/lib64/libthermalclient.so|26475ef0d6b80fcf40c9490f795d21e46d3d9054
+vendor/lib64/vendor.semc.hardware.thermal@1.0.so|5cb582da0e77647e1dd015d8f574ec9588872845
 
 # Time services - from Sony/XQ-AS72
 -vendor/app/TimeService/TimeService.apk|bbb1739e4278f5de6a8900f4d007d06e97bd5d14
@@ -1242,20 +1242,20 @@ vendor/bin/hw/android.hardware.drm@1.3-service.widevine|2158f47423c723a9da29bb81
 vendor/bin/wvkbd|2085f0c0954b81a80b46cef76558bd0fda6a5d1b
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|af7080280e559c86b359b26a0ee8d7859fe0e000
 vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
+-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
+vendor/lib/mediadrm/libwvdrmengine.so|923337504e09700359394298ed4130e20ccd19a7
 vendor/lib/libhdcprx_module.so|b798ae373c8320d81224ca804a777fc7098dc14a
 vendor/lib/libhdcptx_module.so|8ad5ff1b8e58e4a2c27a1a1e95c10a0e93310c19
 vendor/lib/liboemcrypto.so|f60716131b1b22a8e1380bb172ef1022a1e53be5
 vendor/lib/libwvhidl.so|b2a1cf47f749ab88f549d70f1901f58f32f1e1e0
 vendor/lib/libwvtee.so|e09acb0fbf04688d61fd3a4d899ecd0b72f9a7b4
-vendor/lib/mediadrm/libwvdrmengine.so|923337504e09700359394298ed4130e20ccd19a7
+vendor/lib64/mediadrm/libwvdrmengine.so|01bac52cc29a52bf536f559ee1bbdb542c1e4a1d
 vendor/lib64/libhdcprx_module.so|64bd5aa1466ba849f0ef89f237ba378bd41ddbac
 vendor/lib64/libhdcpsrm.so|e419c107da4919b898a6917396e8930ebc9de5d0
 vendor/lib64/libhdcptx_module.so|9ccb2e895c30d779e666970b0e7d20169c1fe9b0
 vendor/lib64/liboemcrypto.so|c087ddd62e803e029e7b6ef2fd6e987ef539debc
 vendor/lib64/libwvhidl.so|1e80d82c608a716af89c49c986cace1fd40bfa05
 vendor/lib64/libwvtee.so|a04108b8b1c6da74b72df954a9f613ee420e2d93
-vendor/lib64/mediadrm/libwvdrmengine.so|01bac52cc29a52bf536f559ee1bbdb542c1e4a1d
--vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
 
 # Widevine DRM firmware - from Sony/XQ-AS72
 vendor/firmware/tzhdcp.b00|06d26d146f29f5c0cbb76346db3126399dadd91a
